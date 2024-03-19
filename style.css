@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+body {
+  background-color: #65db53;
+  font-weight: bold;
+  font: normal 20px Arial;
+}
+
+main {
+  background-color: white;
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1.1em;
+  line-height: 2em;
+  text-indent: 30px;
+  margin-bottom: 30px;
+}
+
+article > h1 {
+  background-image: linear-gradient(to right, rgb(76, 226, 56), green, transparent);
+}
+
+header > h1 {
+  text-align: center;
+  font-style: italic;
+}
+
+header > p {
+  margin-left: 20px;
+  text-align: center;
+}
+
+.espaco {
+  padding-bottom: 20px;
+}
+
+header {
+  background-color: rgba(3, 122, 13, 0.849);
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+
+nav {
+  margin-left: 20px;
+}
+
+img {
+  width: 300px;
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+a:hover {
+  color: darkgreen;
+  transition: 1.5s;
+  background-color: rgba(255, 255, 255, 0.619);
+  border-radius: 10px;
+  padding: 5px;
+}
