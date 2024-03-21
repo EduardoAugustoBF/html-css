@@ -6,20 +6,36 @@ body {
   font: normal 20px Arial;
 }
 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 main {
   background-color: white;
-  width: 800px;
+  min-width: 320px;
+  max-width: 800px;
   margin: auto;
   padding: 20px;
   border-radius: 10px;
-  font-size: 1.1em;
   line-height: 2em;
-  text-indent: 30px;
+  text-indent: 20px;
   margin-bottom: 30px;
 }
 
+main h2 {
+  background-image: linear-gradient(to right, green, orange, transparent);
+  border-radius: 10px;
+}
+
 article > h1 {
-  background-image: linear-gradient(to right, rgb(76, 226, 56), green, transparent);
+  background-image: linear-gradient(
+    to right,
+    rgb(76, 226, 56),
+    green,
+    transparent
+  );
+  border-radius: 10px;
 }
 
 header > h1 {
@@ -40,6 +56,7 @@ header {
   background-color: rgba(3, 122, 13, 0.849);
   padding-top: 10px;
   margin-bottom: 30px;
+  padding-bottom: 50px;
 }
 
 nav {
@@ -60,10 +77,45 @@ a {
   margin-right: 20px;
 }
 
-a:hover {
-  color: darkgreen;
-  transition: 1.5s;
-  background-color: rgba(255, 255, 255, 0.619);
+div.quadrado {
+  display: inline-block;
+  border: 2px solid black;
+  width: 300px;
+  height: 300px;
   border-radius: 10px;
+}
+
+.quadrado:hover {
+  background-color: blue;
+  transition: 1.5s;
+}
+
+footer {
+  text-align: center;
+  background-color: darkgrey;
   padding: 5px;
+  color: white;
+  margin-top: 15px;
+}
+
+footer p {
+  font-size: 15px;
+}
+
+.rodape:hover {
+  color: gold;
+  transition: 1.5s;
+}
+
+.nav:hover {
+  color: rgb(13, 241, 13);
+  background-color: gray;
+  border-radius: 10px;
+  transition: 1s;
+  padding: 10px;
+}
+
+.rodape {
+  text-decoration: underline;
+  font-size: 14px;
 }
