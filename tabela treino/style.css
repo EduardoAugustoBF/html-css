@@ -1,0 +1,24 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.treino {
+  padding-bottom: 10px;
+}
+
+.container {
+  display: flex;
+}
+
+table {
+  width: 300px;
+  border-collapse: collapse;
+  margin-left: 20px;
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
