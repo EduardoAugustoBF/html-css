@@ -50,3 +50,7 @@ td:hover {
   font-size: 25pt;
   transition: 0.2s;
 }
+
+div#container {
+  overflow-x: auto;
+}
